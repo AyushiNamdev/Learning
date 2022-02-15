@@ -33,3 +33,172 @@ Here’s what opening and closing body tags look like:
 </body>
 Once the file has a body, 
 many different types of content – including text, images, and buttons – can be added to the body.
+
+HTML codes are family relationship
+<body>
+  <h1>Hello World</h1>
+  <p>This paragraph is a child of the body element</p>
+  <div>
+    
+  </div> 
+</body>
+-------------------------------------------
+<body>
+  <div>
+    <h1>Sibling to p, but also grandchild of body</h1>
+    <p>Sibling to h1, but also grandchild of body</p>
+  </div>
+</body>
+
+------------------------------------
+<body>
+  <h1>Hello World</h1>
+  <p>This paragraph is a child of the body element</p>
+  <div>
+    <p>This paragraph is a child of the div element and a grandchild of the body element</p>
+  </div> 
+</body>
+
+----------------
+
+HTML head:
+<h1> — used for main headings. All other smaller headings are used for subheadings.
+<h2> - subheadings
+<h3>
+<h4>
+<h5>
+<h6>
+
+
+-----------
+
+Div:
+
+<div> is short for “division” or a container that divides the page into sections. 
+These sections are very useful for grouping elements in your HTML together.
+<body>
+  <div>
+    <h1>Why use divs?</h1>
+    <p>Great for grouping elements!</p>
+  </div>
+</body>
+
+-----------------
+-------------------
+Attributes:
+
+Attributes
+If we want to expand an element’s tag, we can do so using an attribute. Attributes are content added to the opening tag of an element and can be used in several different ways, from providing information to changing styling. Attributes are made up of the following two parts:
+
+The name of the attribute
+The value of the attribute
+One commonly used attribute is the id. We can use the id attribute to specify different content (such as <div>s) and is really helpful when you use an element more than once. ids have several different purposes in HTML, but for now, we’ll focus on how they can help us identify content on our page.
+
+When we add an id to a <div>, we place it in the opening tag:
+
+<div id="intro">
+  <h1>Introduction</h1>
+</div>
+
+
+-------------------
+Paragraph and Span
+
+Displaying Text
+If you want to display text in HTML, you can use a paragraph or span:
+
+Paragraphs (<p>) contain a block of plain text.
+<span> contains short pieces of text or other HTML. They are used to separate small pieces of content that are on the same line as other content.
+Take a look at each of these elements in action below:
+
+<div>
+  <h1>Technology</h1>
+</div>
+<div>
+  <p><span>Self-driving cars</span> are anticipated to replace up to 2 million jobs over the next two decades.</p>
+</div>
+In the example above, there are two different <div>. The second <div> contains a <p> with <span>Self-driving cars</span>. This <span> element separates “Self-driving cars” from the rest of the text in the paragraph.
+-------------
+
+Tags - to emphasis text
+
+The <em> tag will generally render as italic emphasis.
+The <strong> will generally render as bold emphasis.
+Take a look at each style in action:
+
+<p><strong>The Nile River</strong> is the <em>longest</em> river in the world, measuring over 6,850 kilometers long (approximately 4,260 miles).</p>
+In this example, the <strong> and <em> tags are used to emphasize the text to produce the following:
+
+The Nile River is the longest river in the world, measuring over 6,850 kilometers long (approximately 4,260 miles).
+
+----------
+Break between sentenses
+
+add <br> where you need to break, if two enters are required, then put two <br>
+
+------------
+
+Unordered List
+
+an unordered list tag (<ul>) to create a list of items in no particular order. An unordered list outlines individual list items with a bullet point.
+
+<ul>
+  <li>Limes</li>
+  <li>Tortillas</li>
+  <li>Chicken</li>
+</ul>
+the list was created using the <ul> tag and all individual list items were added using <li> tags.
+
+The output will look like this:
+
+Limes
+Tortillas
+Chicken
+
+-----------------------
+Ordered List
+
+Ordered Lists
+Ordered lists (<ol>) are like unordered lists, except that each list item is numbered. 
+You can create the ordered list with the <ol> tag and then add individual list items to the list using <li> tags.
+
+<ol>
+  <li>Preheat the oven to 350 degrees.</li>
+  <li>Mix whole wheat flour, baking soda, and salt.</li>
+  <li>Cream the butter, sugar in separate bowl.</li>
+  <li>Add eggs and vanilla extract to bowl.</li>
+</ol>
+The output will look like this:
+
+1. Preheat the oven to 350 degrees.
+2. Mix whole wheat flour, baking soda, and salt.
+3. Cream the butter, sugar in separate bowl.
+4. Add eggs and vanilla extract to bowl.
+
+---------------------------------
+Add Image in the file or webpage:
+
+The <img> tag allows you to add an image to a web page. Most elements require both opening and closing tags, but the <img> tag is a self-closing tag. Note that the end of the <img> tag has a forward slash /.
+ Self-closing tags may include or omit the final slash — both will render properly.
+
+<img src="image-location.jpg" />
+The <img> tag has a required attribute called src. 
+The src attribute must be set to the image’s source, or the location of the image. 
+In this case, the value of src must be the uniform resource locator (URL) of the image.
+A URL is the web address or local address where a file is stored.
+
+We can add a message in the image or for the image using alt="type message here" and end with image />
+------------------------
+
+Video can also be added
+ideos
+In addition to images, HTML also supports displaying videos. Like the <img> tag, the <video> tag requires a src attribute with a link to the video source. Unlike the <img> tag however, the <video> element requires an opening and a closing tag.
+
+<video src="myVideo.mp4" width="320" height="240" controls>
+  Video not supported
+</video>
+In this example, the video source (src) is myVideo.mp4 The source can be a video file that is hosted alongside your webpage, or a URL that points to a video file hosted on another webpage.
+
+After the src attribute, the width and height attributes are used to set the size of the video displayed in the browser. The controls attribute instructs the browser to include basic video controls: pause, play and skip.
+
+The text, “Video not supported”, between the opening and closing video tags will only be displayed if the browser is unable to load the video.
