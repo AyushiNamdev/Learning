@@ -1,0 +1,29 @@
+Notes of CSS
+
+CSS is used to define styles for your web pages, including the design, 
+layout and variations in display for different devices and screen sizes.
+
+
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value)
+
+--------------------------
+CSS Syntax
+
+
+CSS is composed of style rules that the browser interprets and then applies to the corresponding elements in your document.
+A style rule has three parts: selector, property, and value.
+--------------------
+A CSS comment look like this:
+/* Comment goes here */
+
+-----------------
+Font Family
+body {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+CSS
+If the br
