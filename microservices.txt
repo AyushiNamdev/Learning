@@ -1,0 +1,44 @@
+Monolithic and Microservices
+
+client is connected to gateaway 
+and gateaway is connected to microservices
+
+team is small - go for monolithicis
+team is big- go for microservices
+
+monolith does not need to be single, we can have more
+we can scale it more
+
+microservices:
+single business unit, talk to dedicated databases
+
+Advantages of Monolithic:
+stack overflow
+scales out- multiple server
+good for small team 
+lesser moving part
+setting up is easy
+less duplicacy 
+procedure call is faster
+
+Disadvantages:
+
+more context required to learn for a new person
+deployment are tough
+too much responsibilty on each server
+one crashes, everything crashes
+-----------------
+
+Microservices:
+google, facebook
+easier for new
+parallel development is easy
+profiles, analytics, chat
+lesser parts are hidden
+we can clearly see which needs more server
+
+Disadvantages:
+not easy to design
+if service one is only talking to service 2 all the  time, then it can be a one service
+smart architecture needed
+
