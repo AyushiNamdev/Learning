@@ -1,0 +1,72 @@
+REST
+-
+Request to Server and then Server response
+
+Returns Data:
+JSON format 
+XML format
+
+rest api creates an object and then send the value of objects as the output to user
+
+REpresentational State Transfer
+API- APplication Pragramming interface
+it is the medium between two things
+"APIKey"= strict key, everyone has this different
+if the API key is wrong then, the process will not work-invalid
+API key- documentation on ho tp use + rules
+
+Features of Rest API
+simpler than SOAP
+Documentation
+Error Messages
+
+Principles of REST API-
+
+Stateless- 
+Client server- uniform interface to separate client and server
+
+Uniform Interface- 
+Cacheable- application are made cacheable by layering
+Layered system- more stable, security
+Codeon Demand- optional, used the least
+-------
+Methods of Rest API
+
+crud- create read update delete
+resource- what you want to do, client is looking for
+-------
+HTTP methods
+POST- create/insert data
+GET
+PUT 
+DELETE
+----------
+how to implement REST API
+
+Request
+POST: api/students(example)
+{"name":"Ayushi"}
+Response
+{"id":11,"name":"Ayushi"}
+
+----
+Request for Updating data
+
+PUT or PATCH: /api/students/1
+{"name": "Ajay"}
+----
+Request for deleting data 
+
+DELETE: /api/students/1
+response- {"id":1,"name":"raj"}
+ --------
+
+GET --- /api/students
+GET--- /api/students/1
+POST---/api/students
+PUT----/api/students/1
+DELETE--/api/students/1
+
+
+
+
