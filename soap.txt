@@ -1,0 +1,14 @@
+SOAP Web Services Specifications
+
+Basic and Extended
+
+soap is a protocol
+simple objext access protocol
+
+the information shared exchange between client and server should be in XML and that too in a SOAP messgae
+envelope - root elemeent and it contains header and body
+header- authentication and heading about he messgae
+body- main information
+
+
+
