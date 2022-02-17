@@ -1,0 +1,32 @@
+Front End and Back End
+
+Static or Dynamic
+
+Front end:
+web developemen
+html 
+css
+javascript
+
+angular/react framework libraries used for 
+android
+ios
+------------
+BackEnd
+
+product needs, logic
+database management
+
+how api should work
+architecture
+technologies
+java spring
+python
+django
+flask
+sql database
+mongo db
+elastic
+--------
+Full Stack
+use both
